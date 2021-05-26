@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.nav-bar{
+    background-color: #ffd300;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    box-shadow: 0 4px 10px 0  rgba(226,187,0 , .5) ;
+}
+
+header h1{
+    color: #000;
+    font-size: 2rem;
+    letter-spacing: .7rem;
+}
+header img{
+    width: 5vw;
+    height: 10vh;
+    margin: 0;
+}
+.nav-bar .social-media{
+    display: flex;
+}
+
+.nav-bar .social-media li{
+    border-right: 3px solid rgba(226,187,0 ,.4);
+    padding-right: 10px ;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 10px;
+}
+
+.nav-bar .social-media__element:last-child{
+    border-right: none;
+}
+
+.nav-bar .social-media__element a{
+    color: #000;
+    font-size: 1.2rem;
+    padding: .8rem .5rem;
+}
+
+.nav-bar .social-media__element a:hover , li:hover{
+    background-color: #ffc95a;
+    transition: all .3s;
+    border-bottom: solid .1px #e2bb00;
+}
+
+
+
+/* TEXTOS */
+.container{
+    background-image: url("../img-landing/glitgrande1.png");
+    margin-top: -20px;
+    height: 400px;
+}
+
+.container .texts{
+    text-align: center;
+    line-height: 80px;
+}
+
+.container .texts h1{
+    font-size: 60px;
+    margin-top: 20px;
+    font-family:'Lobster', cursive ;
+    font-weight: 100;
+    text-shadow: 5px 1px rgba(235, 255, 0, .5);
+}
+
+.container .texts p{
+    justify-content: center;
+    background-color:  rgba(236, 247, 120, 0.459);
+    backdrop-filter: blur(2px);
+    width: 30%;
+    height: 5%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.container .texts .btn-cta{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: #e2bb00;
+    color: #000;
+    font-weight: 700;
+}
+
+.container .texts .btn-cta:hover{
+    background-color: #ffc95a;
+    transition: all .3s;
+    border-bottom: 3px solid #e2bb00;
+}
+
+/* TARJETAS DE CONTENIDO */
+body{
+    backdrop-filter: blur(12px);
+}
+
+.product-cards{
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(255, 234, 167,.7);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products-cards__card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.products-cards__card img{
+    position: relative;
+    width: 20vw;
+    height: 30vh;
+    margin-left: 15%;
+    margin-top: 5%;
+    align-items: center;
+}  *
+
+.products-cards__card{
+    margin: 5% 10px;
+    padding: 10% 10px;
+    height: 50vh;
+    width: 30vw;
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, .24);
+    border-radius: 10px;
+    /* border: 3px solid black; */
+}
+
+.products-cards__card p{
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: Arial;
+    margin-top: 5%;
+    /* margin-bottom: 20%; */
+    background-color: rgba(235, 255, 0, .5);
+    padding: 10%;
+}
+
+.products-cards__card .text1{
+    margin-top: 5% ;
+    margin-bottom: 5%;
+}
+
+.products-cards__card .text2{
+    margin-bottom: 5%;
+}
+
+.products-cards__card .text3{
+    margin-bottom: 5%;
+}
+
+.products-cards__card:hover{
+    box-shadow: 10px 10px 10px  rgba(226,187,0 , .5);
+    transition: all .3s;
+}
+
+/* PIE DE PAGINA */
+.part-footer{
+    background-color: #ffd300;
+    height: 10vh;
+}
+.part-footer__page-end p{
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+    padding-left: 15px;
+}
